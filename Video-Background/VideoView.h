@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VideoView.h
 //  Video-Background
 //
 //  Created by Rama Milaneh on 3/27/17.
@@ -7,14 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AVFoundation/AVFoundation.h>
-#import "VideoView.h"
 
+@interface VideoView : UIView
 
-@interface ViewController : UIViewController
-
-
-
+-(instancetype)initWithFrame:(CGRect)frame;
+-(void)playVideo;
+-(void)pauseVideo;
 
 @end
-

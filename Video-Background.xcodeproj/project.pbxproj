@@ -13,6 +13,8 @@
 		215756AB1E8990ED00636098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215756A91E8990ED00636098 /* Main.storyboard */; };
 		215756AD1E8990ED00636098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215756AC1E8990ED00636098 /* Assets.xcassets */; };
 		215756B01E8990ED00636098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215756AE1E8990ED00636098 /* LaunchScreen.storyboard */; };
+		215756BF1E89971900636098 /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 215756BE1E89971900636098 /* VideoView.m */; };
+		A2DD56B41E917A8D00513A6E /* drop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A2DD56B31E917A8D00513A6E /* drop.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		215756AC1E8990ED00636098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		215756AF1E8990ED00636098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		215756B11E8990ED00636098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215756BD1E89971900636098 /* VideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
+		215756BE1E89971900636098 /* VideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoView.m; sourceTree = "<group>"; };
+		A2DD56B31E917A8D00513A6E /* drop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = drop.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,14 @@
 		2157569F1E8990ED00636098 /* Video-Background */ = {
 			isa = PBXGroup;
 			children = (
+				A2DD56B31E917A8D00513A6E /* drop.mp4 */,
 				215756A31E8990ED00636098 /* AppDelegate.h */,
 				215756A41E8990ED00636098 /* AppDelegate.m */,
 				215756A61E8990ED00636098 /* ViewController.h */,
 				215756A71E8990ED00636098 /* ViewController.m */,
+				215756BD1E89971900636098 /* VideoView.h */,
+				215756BE1E89971900636098 /* VideoView.m */,
+				215756A11E8990ED00636098 /* main.m */,
 				215756A91E8990ED00636098 /* Main.storyboard */,
 				215756AC1E8990ED00636098 /* Assets.xcassets */,
 				215756AE1E8990ED00636098 /* LaunchScreen.storyboard */,
@@ -74,7 +83,6 @@
 		215756A01E8990ED00636098 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				215756A11E8990ED00636098 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -137,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DD56B41E917A8D00513A6E /* drop.mp4 in Resources */,
 				215756B01E8990ED00636098 /* LaunchScreen.storyboard in Resources */,
 				215756AD1E8990ED00636098 /* Assets.xcassets in Resources */,
 				215756AB1E8990ED00636098 /* Main.storyboard in Resources */,
@@ -150,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215756BF1E89971900636098 /* VideoView.m in Sources */,
 				215756A81E8990ED00636098 /* ViewController.m in Sources */,
 				215756A51E8990ED00636098 /* AppDelegate.m in Sources */,
 				215756A21E8990ED00636098 /* main.m in Sources */,
@@ -309,6 +319,7 @@
 				215756B61E8990ED00636098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
